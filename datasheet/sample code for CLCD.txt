@@ -1,0 +1,35 @@
+0  1100 0000 //change to line 2
+
+ADDr
+
+0	0 0 1 0 ? 0 0 0 0	Set to 4 bit operation (note: 1 nibble operation)
+0	0 0 1 0 ? 0 0 0 0	Function set, 8 bit
+0	1 0 0 0 ? 0 0 0 0	2nd nibble
+0	0 0 0 0 ? 0 0 0 0	Display ON, Cursor On, Cursor Blinking
+0	1 1 1 1 ? 0 0 0 0	2nd nibble
+0	0 0 0 0 ? 0 0 0 0	Entry Mode, Increment cursor position, No display shift
+0	0 1 1 0 ? 0 0 0 0	2nd nibble
+
+
+1	0 1 0 0 ? 0 0 0 0	H
+1	1 0 0 0 ? 0 0 0 0	2nd nibble
+1	0 1 1 0 ? 0 0 0 0	e
+1	0 1 0 1 ? 0 0 0 0	2nd nibble
+1	0 1 1 0 ? 0 0 0 0	l
+1	1 1 0 0 ? 0 0 0 0	l
+1	0 1 1 0 ? 0 0 0 0	l
+1	1 1 0 0 ? 0 0 0 0	l
+1	0 1 1 0 ? 0 0 0 0	o
+1	1 1 1 1 ? 0 0 0 0	2nd nibble
+1	0 0 1 0 ? 0 0 0 0	space
+1	0 0 0 0 ? 0 0 0 0	2nd nibble
+1	0 1 0 1 ? 0 0 0 0	w
+1	0 1 1 1 ? 0 0 0 0	2nd nibble
+1	0 1 1 0 ? 0 0 0 0	o
+1	1 1 1 1 ? 0 0 0 0	2nd nibble
+1	0 1 1 1 ? 0 0 0 0	r
+1	0 0 1 0 ? 0 0 0 0	2nd nibble
+1	0 1 1 0 ? 0 0 0 0	l
+1	1 1 0 0 ? 0 0 0 0	2nd nibble
+1	0 1 1 0 ? 0 0 0 0	d
+1	0 1 0 0 ? 0 0 0 0	2nd nibble
